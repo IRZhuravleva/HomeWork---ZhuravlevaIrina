@@ -1,0 +1,34 @@
+   0 clear
+   1 env
+   2 pwd
+   3 ls
+   4 wereis ls
+   5 whereis ls
+   6 export NAME=irina MYVAR=hello
+   7 env
+   8 echo $MYVAR $NAME
+   9 unset NAME MYVAR
+  10 clear
+  11 mkdir
+  12 clear
+  13 ls
+  14 mkdir-p /home/animals/docs /home/animals/cats /home/animals/fisch /home/humans /home/planets
+  15 clear
+  16 mkdir -p
+  17 clear
+  18 ls
+  19 mkdir -p /home/animals/dogs /home/animals/cats /home/animals/fisch /home/humans /home/planets
+  20 touch /home/animals/dogs/pluto.txt /home/animals/cats/garfield.txt /home/animals/fish/nemo.txt /opt/Mercury.txt /opt/Venus.txt /opt/Jupiter.txt /opt/Mars.txt /tmp/Adam.txt /tmp/evA.txt
+  21 clear
+  22 ls
+  23 mkdir -p /home/animals/dogs /home/animals/cats /home/animals/fish /home/human /home/planets
+  24 touch /home/animals/dogs/pluto.txt /home/animals/cats/garfield.txt /home/animals/fish/nemo.txt /opt/Mercury.txt /opt/Venus.txt /opt/Mars.txt /opt/Jupiter.txt /tmp/Adam.txt /tmp/evA.txt
+  25 mv /opt/*.txt /home/planets
+  26 cp /tmp/Adam.txt /home/humans/
+  27 mv /tmp/evA.txt /opt/eve.txt
+  28 mv /opt/eve.txt /home/humans/
+  29 history
+  30 hystory>homework.txt
+  31 hystory > homework.txt
+  32 Hystory >hw1906.txt
+  33 history > hw1906.txt
